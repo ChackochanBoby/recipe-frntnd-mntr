@@ -1,0 +1,145 @@
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: var(--Eggshell);
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Wenge-Brown);
+    font-size: .8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 36.5rem;
+    min-width: 370px;
+    background-color: var(--Rose-White);
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+h1{
+    color: var(--Dark-Charcoal);
+    font-size: 1.6rem;
+}
+span{
+    font-weight: 600;
+}
+h1,h2{
+    font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.section-1 h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 20px;
+    color: var(--Dark-Raspberry);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.section-1 ul{
+    margin-left: 20px;
+}
+h2{
+    color: var(--Nutmeg);
+    font-size: 1.4rem;
+}
+.section-1 img,.section-1 h1,.section-1 p{
+    margin-bottom: 10px;
+}
+.prep-time-div{
+    margin-top: 30px;
+}
+.section-2 h2{
+    margin-bottom: 10px;
+}
+li{
+    margin-bottom: 5px;
+}
+ol li{
+    list-style-type: decimal;
+    
+}
+.instructions-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+.table-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.table-items{
+    width: 50%;
+    padding-left: 10px;
+    font-size: .8rem;
+}
+.table-hr{
+    background-color: var(--Light-Grey);
+    height: 1px;
+    border: none;
+}
+.container,.container img{
+    border-radius: 10px;
+}
